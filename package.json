@@ -1,0 +1,25 @@
+{
+  "name": "alissazheng.com",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeninspire/alissazheng.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeninspire/alissazheng.com/issues"
+  },
+  "homepage": "https://github.com/zeninspire/alissazheng.com#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}
