@@ -6,7 +6,7 @@ import App from './components/App.jsx';
 const Wait = () => {
 	return (
 		<div>
-			Alissazheng.com is lauching on 02/07/2017! Thank you for your patience. See you then!
+			Launching on 02/07/2017! Thank you for your patience. See you then!
 		</div>
 	)
 }
