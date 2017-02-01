@@ -1,6 +1,13 @@
 body {
-  margin-top: 20%;
+  background-image: url(http://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif);
   font-size: 30px;
   color: violet;
-  text-align: center
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto
+}
+
+.count {
+  display: inline-block;
+  margin: 0 auto
 }
