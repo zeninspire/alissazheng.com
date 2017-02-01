@@ -1,13 +1,12 @@
 body {
-  background-image: url(http://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif);
-  font-size: 30px;
-  color: violet;
+  margin-top:10%;
+  font-size: 27px;
+  color: teal;
   text-align: center;
-  display: inline-block;
-  margin: 0 auto
+  font-family: Arial, Helvetica, sans-serif
 }
 
-.count {
+.yazclock {
   display: inline-block;
-  margin: 0 auto
+  margin: auto;
 }
