@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/zeninspire/alissazheng.com#readme",
   "dependencies": {
+    "axios": "^0.15.3",
     "babel-core": "^6.21.0",
     "babel-jest": "^18.0.0",
     "babel-loader": "^6.2.10",
