@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import Count from './Countdown.jsx';
 import Links from './Links.jsx';
 
-class App extends Component {
+class About extends Component {
 	render () {
 		return (
 			<div>
-				Welcome to Alissa's Portfolio!<br/>
+                You are in the About Me section of the website!
+				<Links />
 		        {this.props.children}
 			</div>
 		)
 	}
 }
 
-export default App;
+export default About;
