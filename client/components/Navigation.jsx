@@ -9,7 +9,7 @@ class Navigation extends Component {
                 <Navbar fluid>
                     <Navbar.Header>
                         <Navbar.Brand>
-                        <a onClick={() => browserHistory.push("/")}>Alissa's</a>
+                        <a onClick={() => browserHistory.push("/about")}>Alissa's</a>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>

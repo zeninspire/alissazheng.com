@@ -5,8 +5,8 @@ class About extends Component {
 	render () {
 		return (
 			<div>
-				<img className="profilepic" src="./img/profile.jpg" />
 				<ul>
+				<img className="profilepic" src="./img/profile.jpg" /><br/>
 				Full-stack Software Engineer. <br/>
 				Solves problems from a user's perspective. <br/>
 				Builds web apps using JavaScript, Node.js, Express.js. <br/>

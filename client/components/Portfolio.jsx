@@ -4,7 +4,9 @@ class Portfolio extends Component {
 	render () {
 		return (
 			<div>
-                You are in the Portfolio section of the website!
+				<iframe src="http://www.local-spot.com" height="450" width="450">Loca-Spot</iframe>
+				<iframe src="https://bash-to-the-trivia.herokuapp.com" height="450" width="450">Loca-Spot</iframe>
+				<iframe src="https://bash-to-the-dating.herokuapp.com" height="450" width="450">Loca-Spot</iframe>
 			</div>
 		)
 	}
