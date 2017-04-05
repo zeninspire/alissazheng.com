@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
+import Local from './projects/Local.jsx';
+import Trivia from './projects/Trivia.jsx';
+import Dating from './projects/Dating.jsx';
 
 class Project extends Component {
 	render () {
 		return (
 			<div>
-				<iframe src="http://www.local-spot.com" height="540" width="960">Loca-Spot</iframe>
-				<iframe src="https://bash-to-the-trivia.herokuapp.com" height="540" width="960">Trivia</iframe>
-				<iframe src="https://bash-to-the-dating.herokuapp.com" height="540" width="960">Video Dating</iframe>
+				<Local />
+				<Trivia />
+				<Dating />
 			</div>
 		)
 	}

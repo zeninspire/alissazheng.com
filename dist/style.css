@@ -12,5 +12,20 @@
 }
 
 .profilepic {
-  width:120px
+  width:120px;
+  border-radius: 60px
 }
+
+.aboutBackground {
+  background-image: "./img/about-background.jpg"
+}
+
+#local, #dating, #trivia {
+  height: 120px;
+  width:120px;
+  background-color: teal;
+  border-radius: 60px;
+  text-align: center;
+  color: white;
+}
+
