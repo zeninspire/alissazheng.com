@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Portfolio extends Component {
+class Project extends Component {
 	render () {
 		return (
 			<div>
@@ -12,4 +12,4 @@ class Portfolio extends Component {
 	}
 }
 
-export default Portfolio;
+export default Project;
