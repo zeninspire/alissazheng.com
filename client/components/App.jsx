@@ -8,7 +8,7 @@ import Links from './Links.jsx';
 class App extends Component {
 	render () {
 		return (
-			<div>
+			<div className='app'>
 				<About />
 				<Project />
 				<Links />
