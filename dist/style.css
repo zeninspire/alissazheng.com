@@ -17,12 +17,9 @@
   border-radius: 60px
 }
 
-.aboutBackground {
-  background-image: "./img/about-background.jpg"
-}
-
 #local, #dating, #trivia {
-  align-self: auto;
+  background-color: teal;
+  display: flex;
   margin: auto;
   height: 120px;
   width:120px;
@@ -32,30 +29,51 @@
   opacity: 0.8;
 }
 
-.aboutAll {
-  text-align: center
+#local-link, #dating-link, #trivia-link {
+  margin: auto;
+  color: white;
+  font-weight: bold;
+}
+
+#local-text{
+  width: 100px;
+}
+
+.about {
+  margin-top: 5%;
+  text-align: center;
+  height: 40%;
 }
 
 .project {
+  margin-top: 5%;
+  margin-bottom: 5%;
   display: flex;
-  margin: auto;
-  width: 40%;
+  height: 45%;
   align-items: center
 }
 
 .links{
   display: flex;
-  width:100px
+  width:100px;
+}
+
+#top-banner {
+  display: flex;
+  margin: auto;
+  height: 50px;
+  background-color: teal;
+  justify-content: center;
+  opacity: 0.75
 }
 
 #link-banner {
   display: flex;
   margin: auto;
-  width: 40%;
   height: 60px;
-  border-radius: 10px;
   background-color: teal;
-  justify-content: center
+  justify-content: center;
+  opacity: 0.75
 }
 
 .responsive-img{

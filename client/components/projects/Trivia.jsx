@@ -4,7 +4,7 @@ class Trivia extends Component {
 	render () {
 		return (
 			<div id="trivia">
-                <a onClick = {() => window.open('http://bash-to-the-trivia.herokuapp.com', '_blank')}>Trivia</a>
+                <a id='trivia-link' onClick = {() => window.open('http://bash-to-the-trivia.herokuapp.com', '_blank')}>Trivia</a>
 			</div>
 		)
 	}

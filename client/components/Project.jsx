@@ -6,7 +6,7 @@ import Dating from './projects/Dating.jsx';
 class Project extends Component {
 	render () {
 		return (
-			<div className="project">
+			<div className="project col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<Local />
 				<Trivia />
 				<Dating />
