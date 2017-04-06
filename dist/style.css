@@ -17,6 +17,10 @@
   border-radius: 60px
 }
 
+#local-all, #dating-all, #trivia-all {
+  margin: auto;
+}
+
 #local, #dating, #trivia {
   background-color: teal;
   display: flex;
@@ -35,8 +39,9 @@
   font-weight: bold;
 }
 
-#local-text{
-  width: 100px;
+#local-text, #dating-text, #trivia-text {
+  width:110px;
+
 }
 
 .about {
