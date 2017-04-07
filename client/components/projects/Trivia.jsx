@@ -8,8 +8,8 @@ class Trivia extends Component {
 					<a id='trivia-link' onClick = {() => window.open('http://bash-to-the-trivia.herokuapp.com', '_blank')}>Trivia</a>
 				</div>
 				<div id="trivia-text">
-					<h4>Venue Recommendation with AI</h4>
-					<h5>A decision engine that learns user preferences and recommends attractions based on user's behavior and history.</h5> 
+					<h4>Trivia with live updates</h4>
+					<h5>Trivia game platform that allows for simultaneous participation by multiple users</h5> 
 				</div> 			
 			</div>
 		)
