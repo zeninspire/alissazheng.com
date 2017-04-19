@@ -44,6 +44,7 @@ body {
   border-radius: 60px;
   text-align: center;
   opacity: 0.8;
+  margin-right: 20px;
 }
 
 #local-link, #dating-link, #trivia-link {
@@ -53,8 +54,13 @@ body {
 }
 
 #local-text, #dating-text, #trivia-text {
-  width:110px;
+  width:200px;
   color: lightslategray;
+  text-align: center;
+}
+
+#local-text {
+  color: slategray;
 }
 
 h4 {
