@@ -5,7 +5,7 @@ class Local extends Component {
 		return (
 			<div id='local-all'>
 				<div id="local">
-					<a id='local-link' onClick = {() => window.open('http://www.local-spot.com', '_blank')}>Local-Spot</a>
+					<a id='local-link' onClick = {() => window.open('https://github.com/UrbanGrizzly/LetsDoLunch', '_blank')}>Local-Spot</a>
 				</div>
 				<div id='local-text'> 
 					<h4>Venue Recommendation with AI</h4>
