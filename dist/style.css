@@ -93,7 +93,9 @@ h4 {
   height: 50px;
   background-color: teal;
   justify-content: center;
-  opacity: 0.75
+  opacity: 0.75;
+  position: fixed;
+  top: 0;
 }
 
 #link-banner {
