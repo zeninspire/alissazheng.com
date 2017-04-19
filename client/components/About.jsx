@@ -14,12 +14,11 @@ class About extends Component {
 							<h3>Software Engineer | Full Stack </h3><br/>
 							<h4>React/Redux, Angular, Node.js, Python</h4><br/>
 						</div>
-							<h4>
-							Solves problems from a user's perspective. <br/>
-							Builds web apps using JavaScript, Node.js, Express.js. <br/>
-							Delivers seamless user experience via React/Redux, Angular, Vue.js, etc. <br/>
-							</h4>
-
+						<h4>
+						Solves problems from a user's perspective. <br/>
+						Builds web apps using JavaScript, Node.js, Express.js. <br/>
+						Delivers seamless user experience via React/Redux, Angular, Vue.js, etc. <br/>
+						</h4>
 					</ul>
 		        {this.props.children}
 			</div>
