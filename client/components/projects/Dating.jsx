@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Dating extends Component {
 	render () {
 		return (
-			<div id='dating-all'>
+			<div className='each-project col-lg-12 col-md-12 col-sm-4 col-xs-4'>
 				<div id="dating">
 					<a id='dating-link' onClick = {() => window.open('http://bash-to-the-dating.herokuapp.com', '_blank')}>Video Dating</a>
 				</div>

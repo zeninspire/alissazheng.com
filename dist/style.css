@@ -14,7 +14,6 @@ body {
 }
 
 
-
 .about-text{
   margin-top: 0px;
   color: teal;
@@ -30,7 +29,7 @@ body {
   border-radius: 60px
 }
 
-#local-all, #dating-all, #trivia-all {
+.each-project {
   display: flex;
   margin: auto;
 }
