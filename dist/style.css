@@ -29,56 +29,55 @@ body {
   border-radius: 60px
 }
 
-.each-project {
-  display: flex;
-  margin: auto;
-}
 
-#local, #dating, #trivia {
-  background-color: teal;
-  display: flex;
-  margin: auto;
-  height: 120px;
-  width:120px;
-  border: 5px solid teal;
-  border-radius: 60px;
+.project {
+  margin-top: 5%;
   text-align: center;
-  opacity: 0.8;
-  margin-right: 20px;
+  height: 45%;
 }
 
-#local-link, #dating-link, #trivia-link {
+.circ-link {
   margin: auto;
   color: white;
   font-weight: bold;
 }
+/*
+  display: flex;
+  align-items: center
+*/
 
-#local-text, #dating-text, #trivia-text {
+#local-circle, #dating-circle, #trivia-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  background-color: teal;
+  display: flex;
+  margin: auto;
+  opacity: 0.8;
+}
+/*  text-align: center; */
+
+.desc1, .desc2{
+  display: flex;
+  margin: auto;
   width:200px;
   color: lightslategray;
   text-align: center;
 }
 
+/* START OF PROJECT
+
+
 #local-text {
   color: slategray;
 }
 
-h4 {
-  text-align: center;
-}
+/* END OF PROJECT */
 
 .about {
   margin-top: 5%;
   text-align: center;
   height: 40%;
-}
-
-.project {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  display: flex;
-  height: 45%;
-  align-items: center
 }
 
 .links{
