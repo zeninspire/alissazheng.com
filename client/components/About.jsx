@@ -8,7 +8,7 @@ class About extends Component {
 			<div className="about col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<ul className="AboutContent">
 						<img className="profilepic" src="./img/profile.jpg" />&nbsp;&nbsp;&nbsp;
-						<Button bsStyle='info' onClick = {() => window.open('https://drive.google.com/open?id=0Bx8IDkDn2v9XLXZNVG5CT0lYbXc', '_blank')}>Resume</Button><br/>
+						<Button bsStyle='info' onClick = {() => window.open('https://drive.google.com/file/d/0Bx8IDkDn2v9XdGRDbUVLX3BEbDg/view?usp=sharing', '_blank')}>Resume</Button><br/>
 						
 						<div className='about-text'>
 							<h3>Software Engineer | Full Stack </h3><br/>
