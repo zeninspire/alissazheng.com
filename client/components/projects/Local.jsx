@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Local extends Component {
 	render () {
 		return (
-			<div className='each-project col-lg-12 col-md-6 col-sm-4 col-xs-4'>
+			<div className='each-project col-lg-4 col-md-4 col-sm-12 col-xs-12'>
 				<div id="local-circle">
 					<a className='circ-link' onClick = {() => window.open('https://github.com/UrbanGrizzly/LetsDoLunch', '_blank')}>Local-Spot</a>
 				</div><br/>

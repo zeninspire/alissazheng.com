@@ -8,7 +8,8 @@ class Project extends Component {
 		return (
 			<div className="project col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<Local />
-
+				<Trivia />
+				<Dating />
 			</div>
 		)
 	}
@@ -17,5 +18,3 @@ class Project extends Component {
 export default Project;
 
 
-				// <Trivia />
-				// <Dating />
