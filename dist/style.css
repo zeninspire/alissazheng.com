@@ -41,6 +41,7 @@ body {
   /*align-items: center;
   height: 40%;
   width: 30%;*/
+  margin-top: 5px;
 }
 
 .circ-link {
@@ -66,6 +67,7 @@ body {
   color: lightslategray;
   text-align: center;
 }
+
 
 
 #local-desc, #dating-desc, #trivia-desc {
