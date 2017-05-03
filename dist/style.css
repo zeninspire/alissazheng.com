@@ -61,7 +61,6 @@ body {
 }
 
 .desc1, .desc2{
-  display: flex;
   margin: auto;
   width:300px;
   color: lightslategray;
