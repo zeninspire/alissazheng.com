@@ -12,7 +12,7 @@ class About extends Component {
 						
 						<div className='about-text'>
 							<h3>Software Engineer | Full Stack </h3><br/>
-							<h4>React/Redux, Angular, Node.js, Python</h4><br/>
+							<h4 id="about-second">React/Redux, Angular, Node.js, Python</h4><br/>
 						</div>
 						<h4>
 						Solves problems from a user's perspective. <br/>
