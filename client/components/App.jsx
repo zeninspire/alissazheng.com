@@ -11,8 +11,7 @@ class App extends Component {
 			<div className='app'>
 				<div id='top-banner' className='col-lg-12 col-md-12 col-sm-12 col-xs-12'></div>
 				<About />
-				<Project />
-				<Links />
+				
 		        {this.props.children}
 			</div>
 		)
@@ -20,3 +19,6 @@ class App extends Component {
 }
 
 export default App;
+
+//<Project />
+//<Links />
