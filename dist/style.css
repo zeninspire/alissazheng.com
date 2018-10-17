@@ -24,6 +24,7 @@ body {
   margin: auto;
 }
 
+<<<<<<< HEAD
 .profilepic {
   width:120px;
   border-radius: 60px
@@ -108,4 +109,20 @@ body {
 
 #about-second{
   opacity: 70%
+=======
+.profile {
+  margin-left:10px;
+}
+
+#profilepic {
+	width: 120px;
+	/*-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;*/
+	border-radius: 60px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#profilepic:hover {
+  opacity:0.8
+>>>>>>> test commit
 }
