@@ -9,12 +9,14 @@ class Navigation extends Component {
                 <Navbar fluid>
                     <Navbar.Header>
                         <Navbar.Brand>
-                        <a onClick={() => browserHistory.push("/about")}>Alissa's</a>
+                        <a onClick={() => browserHistory.push("/about")}>Menu</a>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>
                     <Nav>
-                    <NavItem eventKey={1} href="#" onClick={() => browserHistory.push("/about")}>About Me</NavItem>
+                    <NavItem eventKey={1} href="#" onClick={() => browserHistory.push("/about")}>About</NavItem>
+                    <NavItem eventKey={2} href="#" onClick={() => browserHistory.push("/project")}>Projects</NavItem>
+                    <NavItem eventKey={3} href="#" onClick={() => browserHistory.push("/links")}>Links</NavItem>
                     </Nav>
                 </Navbar>
 			</div>
