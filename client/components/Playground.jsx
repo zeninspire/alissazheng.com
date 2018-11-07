@@ -4,7 +4,6 @@ class Playground extends Component {
 	render () {
 		return (
 			<div>
-                You are in the Playground section of the website!
 				<h3>Ideas to explore</h3>
 				<li>who are selling these gadgets? T-mobile</li>
 				<li>who are buying these gadgets? Is Instgram a marketplace for gadgets?</li>
