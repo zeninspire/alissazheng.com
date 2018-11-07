@@ -5,6 +5,10 @@ class Playground extends Component {
 		return (
 			<div>
                 You are in the Playground section of the website!
+				<h3>Ideas to explore</h3>
+				<li>who are selling these gadgets? T-mobile</li>
+				<li>who are buying these gadgets? Is Instgram a marketplace for gadgets?</li>
+				<li>What brands are out there? Where are they from? How are they doing? What's their social media presense?</li>
 			</div>
 		)
 	}
