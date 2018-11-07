@@ -24,7 +24,6 @@ body {
   margin: auto;
 }
 
-<<<<<<< HEAD
 .profilepic {
   width:120px;
   border-radius: 60px
@@ -83,7 +82,7 @@ body {
   display: flex;
   margin: auto;
   height: 50px;
-  background-color: teal;
+  background-color:black;
   justify-content: center;
   opacity: 0.75;
   position: fixed;
@@ -109,7 +108,8 @@ body {
 
 #about-second{
   opacity: 70%
-=======
+}
+
 .profile {
   margin-left:10px;
 }
@@ -124,5 +124,4 @@ body {
 
 #profilepic:hover {
   opacity:0.8
->>>>>>> test commit
 }

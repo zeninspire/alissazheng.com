@@ -20,5 +20,6 @@ export default (
 		<Route path='/about' component={About} />		
 		<Route path='/project' component={Project} />		
 		<Route path='/links' component={Links} />		
+		<Route path='/playground' component={Playground} />	
 	</Route>
 )

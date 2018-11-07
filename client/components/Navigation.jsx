@@ -14,8 +14,8 @@ class Navigation extends Component {
                     </Navbar.Header>
                     <Nav>
                     <NavItem eventKey={1} href="#" onClick={() => browserHistory.push("/about")}>About</NavItem>
-                    <NavItem eventKey={2} href="#" onClick={() => browserHistory.push("/project")}>Projects</NavItem>
                     <NavItem eventKey={3} href="#" onClick={() => browserHistory.push("/links")}>Links</NavItem>
+                    <NavItem eventKey={3} href="#" onClick={() => browserHistory.push("/playground")}>Playground</NavItem>
                     </Nav>
                 </Navbar>
 			</div>
