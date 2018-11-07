@@ -8,6 +8,7 @@ class Playground extends Component {
 				<li>who are selling these gadgets? T-mobile</li>
 				<li>who are buying these gadgets? Is Instgram a marketplace for gadgets?</li>
 				<li>What brands are out there? Where are they from? How are they doing? What's their social media presense?</li>
+				<li> Shopify </li>
 			</div>
 		)
 	}
