@@ -16,6 +16,10 @@ class Playground extends Component {
 				<li>Tools to use for e-commerce
 					<ul>Shopify</ul>
 				</li>
+				<li>Other causes to explores (within e-commerce space)
+					<ul>pets accessories</ul>
+					<ul>pet food export</ul>
+				</li>
 			</div>
 		)
 	}
