@@ -5,10 +5,17 @@ class Playground extends Component {
 		return (
 			<div>
 				<h3>Ideas to explore</h3>
-				<li>who are selling these gadgets? T-mobile</li>
+				<li>who are selling these gadgets? 
+					<ul>T-mobile</ul>
+				</li>
 				<li>who are buying these gadgets? Is Instgram a marketplace for gadgets?</li>
-				<li>What brands are out there? Where are they from? How are they doing? What's their social media presense?</li>
-				<li> Shopify </li>
+				<li>What brands are out there? Where are they from? How are they doing? What's their social media presense?
+					<ul>Caseify</ul>
+
+				</li>
+				<li>Tools to use for e-commerce
+					<ul>Shopify</ul>
+				</li>
 			</div>
 		)
 	}
