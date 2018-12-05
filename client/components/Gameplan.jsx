@@ -15,6 +15,7 @@ class Gameplan extends Component {
                         <ul>what are the main hustle options
                             <ul>data analyst</ul>
                             <ul>corporate strategy</ul>
+                            <ul>...</ul>
                         </ul>
                     </li>
                 </li>
@@ -23,4 +24,4 @@ class Gameplan extends Component {
 	}
 }
 
-export default Playground;
+export default Gameplan;
