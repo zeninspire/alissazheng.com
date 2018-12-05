@@ -6,6 +6,7 @@ import About from './components/About.jsx';
 import Project from './components/Project.jsx';
 import Links from './components/Links.jsx';
 import Playground from './components/Playground.jsx';
+import Gameplan from './components/Gameplan.jsx';
 
 const Wait = () => {
 	return (
@@ -21,5 +22,6 @@ export default (
 		<Route path='/project' component={Project} />		
 		<Route path='/links' component={Links} />		
 		<Route path='/playground' component={Playground} />	
+		<Route path='/gameplan' component={Gameplan} />	
 	</Route>
 )
