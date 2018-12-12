@@ -4,7 +4,9 @@ class Gameplan extends Component {
 	render () {
 		return (
 			<div>
-                <li>Timeline</li>
+                <li>Timeline
+                    <ul>around July'19, have a sketch built up, then work our way back</ul>
+                </li>
                 <li>Side hustle or main hustle
                     <li>SIDE HUSTLE
                         <ul>What to do outside of work
