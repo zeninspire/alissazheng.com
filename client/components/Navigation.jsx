@@ -8,15 +8,15 @@ class Navigation extends Component {
 			<div>
                 <Navbar fluid>
                     <Navbar.Header>
-                        <Navbar.Brand>
+                        <Button bsStyle="success">
                         <a onClick={() => browserHistory.push("/")}>Menu</a>
-                        </Navbar.Brand>
+                        </Button>
                     </Navbar.Header>
                     <Nav>
-                    <NavItem eventKey={1} href="#" onClick={() => browserHistory.push("/about")}>About</NavItem>
-                    <NavItem eventKey={3} href="#" onClick={() => browserHistory.push("/links")}>Links</NavItem>
-                    <NavItem eventKey={3} href="#" onClick={() => browserHistory.push("/playground")}>Playground</NavItem>
-                    <NavItem eventKey={4} href="#" onClick={() => browserHistory.push("/gameplan")}>Gameplan</NavItem>
+                    <Button bsStyle="primary" eventKey={1} href="#" onClick={() => browserHistory.push("/about")}>About</Button> 
+                    <Button bsStyle="primary" eventKey={3} href="#" onClick={() => browserHistory.push("/links")}>Links</Button> 
+                    <Button bsStyle="primary" eventKey={3} href="#" onClick={() => browserHistory.push("/playground")}>Playground</Button> 
+                    <Button bsStyle="primary" eventKey={4} href="#" onClick={() => browserHistory.push("/gameplan")}>Gameplan</Button>
                     </Nav>
                 </Navbar>
 			</div>
